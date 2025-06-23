@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background: #111827;
+    color: #e5e7eb;
+  }
+  
+  header {
+    background: linear-gradient(135deg, #1d4ed8, #3b82f6);
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Georgia', sans-serif;
+    color: #fff;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #dbeafe;
+  }
+  
+  section {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid #60a5fa;
+    padding-left: 0.5rem;
+    font-family: 'Georgia', serif;
+  }
+  
+  p, li {
+    font-family: 'Verdana', sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 1rem;
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color: #60a5fa;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  .contact a {
+    color: #93c5fd;
+    text-decoration: none;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: #10b981;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .cta-button:hover {
+    background: #059669;
+  }
+  
+  /* 🎯 Fiverr Section Styling */
+  .fiverr-section {
+    background: #1e293b;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 960px;
+  }
+  
+  .fiverr-section h2 {
+    color: #3b82f6;
+  }
+  
+  .fiverr-section p {
+    margin-top: 1rem;
+    color: #e2e8f0;
+  }
+  
+  .fiverr-btn {
+    background-color: #3b82f6;
+  }
+  
+  .fiverr-btn:hover {
+    background-color: #2563eb;
+  }
+  
