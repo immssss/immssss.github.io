@@ -106,4 +106,32 @@
   .fiverr-btn:hover {
     background-color: #2563eb;
   }
+
+/* 💼 Guru Section Styling */
+.guru-section {
+  background: #1e293b;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem auto;
+  max-width: 960px;
+}
+
+.guru-section h2 {
+  color: #facc15; /* Yellow for contrast with Fiverr blue */
+}
+
+.guru-section p {
+  margin-top: 1rem;
+  color: #e2e8f0;
+}
+
+.guru-btn {
+  background-color: #facc15;
+  color: #1e293b;
+}
+
+.guru-btn:hover {
+  background-color: #eab308;
+}
+
   
