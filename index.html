@@ -14,10 +14,10 @@
       --secondary: #2d6a4f;
       --text-dark: #222222;
       --text-muted: #555555;
-      --bg-color: #fcfbf7;
+      --bg-color: #f8f6f0;
       --card-bg: #ffffff;
-      --border-color: #ece5dd;
-      --shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      --border-color: #e5ded4;
+      --shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
     }
 
     * {
@@ -31,19 +31,18 @@
       background-color: var(--bg-color);
       color: var(--text-dark);
       line-height: 1.8;
-      padding: 0;
     }
 
     .container {
-      max-width: 900px;
+      max-width: 920px;
       margin: 0 auto;
-      padding: 2rem 1.5rem;
+      padding: 2.5rem 1.5rem;
     }
 
     /* Header */
     .blog-header {
       text-align: center;
-      margin-bottom: 3rem;
+      margin-bottom: 3.5rem;
       padding-bottom: 2rem;
       border-bottom: 2px dashed var(--border-color);
     }
@@ -52,7 +51,7 @@
       display: inline-block;
       background: var(--primary-light);
       color: var(--primary);
-      padding: 0.3rem 1.2rem;
+      padding: 0.35rem 1.3rem;
       font-size: 0.95rem;
       font-weight: 600;
       border-radius: 50px;
@@ -61,7 +60,7 @@
     }
 
     .blog-title {
-      font-size: 2.2rem;
+      font-size: 2.3rem;
       color: #1a1a1a;
       line-height: 1.4;
       margin-bottom: 1.2rem;
@@ -70,7 +69,7 @@
     .blog-subtitle {
       font-size: 1.15rem;
       color: var(--text-muted);
-      max-width: 750px;
+      max-width: 780px;
       margin: 0 auto;
     }
 
@@ -86,38 +85,24 @@
     }
 
     .blog-section:hover {
-      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.09);
     }
 
     .media-container {
-      position: relative;
       width: 100%;
-      height: 380px;
-      background: #e9ecef;
+      height: 480px;
+      background: #eee;
+      overflow: hidden;
       display: flex;
-      flex-direction: column;
       align-items: center;
       justify-content: center;
-      overflow: hidden;
     }
 
     .media-container img {
       width: 100%;
       height: 100%;
       object-fit: cover;
-    }
-
-    .photo-hint {
-      position: absolute;
-      bottom: 12px;
-      left: 12px;
-      right: 12px;
-      background: rgba(0, 0, 0, 0.65);
-      backdrop-filter: blur(4px);
-      color: #ffffff;
-      padding: 0.6rem 1rem;
-      border-radius: 8px;
-      font-size: 0.85rem;
+      display: block;
     }
 
     .content-body {
@@ -128,8 +113,6 @@
       font-size: 1.6rem;
       color: var(--primary);
       margin-bottom: 1.2rem;
-      position: relative;
-      display: inline-block;
     }
 
     .content-body p {
@@ -148,7 +131,7 @@
       position: relative;
       padding-left: 1.8rem;
       margin-bottom: 0.9rem;
-      font-size: 1rem;
+      font-size: 1.02rem;
     }
 
     .points-list li::before {
@@ -176,17 +159,10 @@
       font-size: 1.02rem;
     }
 
-    .quote-box span {
-      display: block;
-      font-weight: 600;
-      margin-top: 0.4rem;
-      color: var(--primary);
-    }
-
     /* Footer */
     footer {
       text-align: center;
-      padding: 2rem;
+      padding: 2.5rem;
       color: var(--text-muted);
       font-size: 0.95rem;
       border-top: 1px solid var(--border-color);
@@ -197,7 +173,7 @@
         font-size: 1.7rem;
       }
       .media-container {
-        height: 250px;
+        height: 280px;
       }
       .content-body {
         padding: 1.5rem;
@@ -211,21 +187,19 @@
 
     <!-- Header Section -->
     <header class="blog-header">
-      <div class="blog-tag">DIET પ્રાયોજિત શિબિર</div>
+      <div class="blog-tag">DIET વિશેષ કાર્યક્રમ</div>
       <h1 class="blog-title">DIET આયોજિત 'હું શિક્ષક છું' કાર્યક્રમ: સંસ્કાર, સર્જનાત્મકતા અને ઉત્કૃષ્ટ શિક્ષકત્વનું ઘડતર</h1>
-      <p class="blog-subtitle">શિક્ષણ એ માત્ર પુસ્તકીય જ્ઞાન નથી, પણ જીવન જીવવાની સાચી કળા છે. જાણો ભાવિ શિક્ષકો માટે આયોજિત અનોખી સફર વિશે.</p>
+      <p class="blog-subtitle">શિક્ષણ એ માત્ર ચાર દીવાલો વચ્ચે પુસ્તકીય જ્ઞાન પીરસવાનું સાધન નથી, પરંતુ તે વિદ્યાર્થીના સાર્વત્રિક વિકાસ અને જીવન જીવવાની કળાનું સાચું માધ્યમ છે.</p>
     </header>
 
-    <!-- Page 1: Title & Introduction -->
+    <!-- 1. Title & Introduction -->
     <article class="blog-section">
       <div class="media-container">
-        <!-- AI Generated Image Place Here -->
-        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1000&q=80" alt="કાર્યક્રમ પરિચય">
-        <div class="photo-hint">📸 <strong>ફોટો સૂચન:</strong> DIET કમ્પસનો મુખ્ય ગેટ, કાર્યક્રમનું સત્તાવાર બેનર અથવા તાલીમાર્થીઓનો ઉત્સાહી પ્રવેશ.</div>
+        <img src="1000461179.jpg" alt="ગાંધી વિદ્યાપીઠ વેડછી - મુખ્ય ગેટ">
       </div>
       <div class="content-body">
-        <h2>કાર્યક્રમ પરિચય & વિભાવના</h2>
-        <p>શિક્ષણ એ માત્ર ચાર દીવાલો વચ્ચે પુસ્તકીય જ્ઞાન પીરસવાનું સાધન નથી, પરંતુ તે વિદ્યાર્થીના સાર્વત્રિક વિકાસ અને જીવન જીવવાની કળાનું સાચું માધ્યમ છે. ભાવિ શિક્ષકોમાં માત્ર સૈદ્ધાંતિક જ્ઞાન જ નહીં, પરંતુ વ્યવહારુ કૌશલ્યો, સ્વતંત્ર વિચારસરણી, સ્વાવલંબન અને કળાત્મક દ્રષ્ટિ ખીલે તેવા ઉદ્દાત હેતુથી <strong>District Institute of Education and Training (DIET)</strong> દ્વારા 'હું શિક્ષક છું' નામના એક વિશેષ અને અનોખા કાર્યક્રમનું આયોજન કરવામાં આવ્યું હતું.</p>
+        <h2>કાર્યક્રમનો મુખ્ય ઉદ્દેશ્ય અને વિભાવના</h2>
+        <p>ભાવિ શિક્ષકોમાં માત્ર સૈદ્ધાંતિક જ્ઞાન જ નહીં, પરંતુ વ્યવહારુ કૌશલ્યો, સ્વતંત્ર વિચારસરણી, સ્વાવલંબન અને કળાત્મક દ્રષ્ટિ ખીલે તેવા ઉદ્દાત હેતુથી District Institute of Education and Training (DIET) દ્વારા 'હું શિક્ષક છું' નામના એક વિશેષ અને અનોખા કાર્યક્રમનું આયોજન કરવામાં આવ્યું હતું.</p>
         
         <ul class="points-list">
           <li><strong>શિક્ષકત્વની સાચી ઓળખ:</strong> તાલીમાર્થી પોતાનામાં છુપાયેલા શિક્ષકને ઓળખે અને "હું માત્ર એક તાલીમાર્થી નથી, પણ એક જવાબદાર શિક્ષક છું" તેવો આત્મવિશ્વાસ કેળવે.</li>
@@ -242,11 +216,10 @@
       </div>
     </article>
 
-    <!-- Page 2: Bandhani Art -->
+    <!-- 2. Bandhani Art -->
     <article class="blog-section">
       <div class="media-container">
-        <img src="https://images.unsplash.com/photo-1606744888344-493238955de0?auto=format&fit=crop&w=1000&q=80" alt="બાંધણી કળા">
-        <div class="photo-hint">📸 <strong>ફોટો સૂચન:</strong> કાપડ પર દોરા બાંધતા, રંગમાં બોળતા કે તૈયાર થયેલી રંગબેરંગી બાંધણી પ્રદર્શિત કરતો ફોટો.</div>
+        <img src="1000461176.jpg" alt="બાંધણી આર્ટ પ્રદર્શન">
       </div>
       <div class="content-body">
         <h2>રંગો અને પરંપરાનું સંગમ - બાંધણી (Bandhani Art)</h2>
@@ -264,11 +237,10 @@
       </div>
     </article>
 
-    <!-- Page 3: Warli Painting -->
+    <!-- 3. Warli Painting -->
     <article class="blog-section">
       <div class="media-container">
-        <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1000&q=80" alt="વારલી આર્ટ">
-        <div class="photo-hint">📸 <strong>ફોટો સૂચન:</strong> તાલીમાર્થીઓ કાગળ કે કેન્વાસ પર ત્રિકોણ-વર્તુળની વારલી ચિત્રકળા દોરતા હોય તે સમયનો ફોટો.</div>
+        <img src="1000461175.jpg" alt="વારલી આર્ટ સર્જન">
       </div>
       <div class="content-body">
         <h2>લોકસંસ્કૃતિ અને રેખાઓનો જાદુ - વારલી આર્ટ (Warli Painting)</h2>
@@ -286,11 +258,142 @@
       </div>
     </article>
 
-    <!-- Page 4: Puppet Making -->
+    <!-- 4. Puppet Making -->
     <article class="blog-section">
       <div class="media-container">
-        <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=1000&q=80" alt="પપેટ મેકિંગ">
-        <div class="photo-hint">📸 <strong>ફોટો સૂચન:</strong> મોજાં, કાગળ કે કાપડમાંથી કઠપૂતળીઓ બનાવતા કે ડ્રામા/વાર્તા રજૂ કરતા સમયનો ફોટો.</div>
+        <img src="1000461174.jpg" alt="પપેટ મેકિંગ અને શો">
+      </div>
+      <div class="content-body">
+        <h2>વર્ગખંડમાં જીવંતતા લાવતી કળા - પપેટ મેકિંગ (Puppet Making)</h2>
+        <p>બાળકોને વાર્તા અને કલ્પનાલોકમાં લઈ જવા માટે કઠપૂતળી (Puppet) એ એક અદ્ભુત માધ્યમ છે. 'હું શિક્ષક છું' કાર્યક્રમમાં તાલીમાર્થીઓએ વિવિધ પ્રકારના પપેટ્સ બનાવવાની તાલીમ મેળવી:</p>
+        
+        <ul class="points-list">
+          <li><strong>સર્જનાત્મક નિર્માણ:</strong> જૂના મોજાં, રંગીન કાગળ, કાર્ડબોર્ડ અને કાપડના ટુકડાઓમાંથી સ્ટીક પપેટ, ફિંગર પપેટ અને સોક્સ પપેટ બનાવવાની કળા શીખી.</li>
+          <li><strong>ભાવ અને અવાજનું સંયોજન:</strong> પપેટના માધ્યમથી પાત્રો મુજબ અવાજ બદલીને સંવાદો બોલવાની અને વર્ગખંડને જીવંત બનાવવાની કળા કેળવી.</li>
+          <li><strong>શૈક્ષણિક ઉપયોગ:</strong> બાળવાર્તાઓ, નૈતિક મૂલ્યો અને મુશ્કેલ વિષયવસ્તુને પપેટ શો દ્વારા બાળકો સમક્ષ અત્યંત રસપ્રદ રીતે કેવી રીતે રજૂ કરી શકાય તેનું પ્રાયોગિક જ્ઞાન મેળવ્યું.</li>
+        </ul>
+
+        <div class="quote-box">
+          “જ્યારે નિર્જીવ પપેટમાં શિક્ષકની કલ્પના અને અવાજ ભળે છે, ત્યારે વર્ગખંડનું દરેક બાળક મંત્રમુગ્ધ થઈ જાય છે.”
+        </div>
+      </div>
+    </article>
+
+    <!-- 5. Pedagogy through Games -->
+    <article class="blog-section">
+      <div class="media-container">
+        <img src="1000461173.jpg" alt="રમત દ્વારા શિક્ષણ પ્રવૃત્તિ">
+      </div>
+      <div class="content-body">
+        <h2>આનંદદાયી શિક્ષણ - રમત દ્વારા શિક્ષણ (Pedagogy through Games)</h2>
+        <p>“રમશે બાળક, તો શીખશે બાળક” ના અભિગમ સાથે આજના સમયમાં રમત દ્વારા શિક્ષણ (Joyful Learning) આપવું ખૂબ જ જરૂરી બન્યું છે:</p>
+        
+        <ul class="points-list">
+          <li><strong>પ્રવૃત્તિ આધારિત શિક્ષણ:</strong> ગણિત, વિજ્ઞાન અને ભાષા જેવા વિષયોને નીરસ બનાવવાના બદલે વિવિધ પ્રવૃત્તિઓ અને રમતો ગોઠવીને સરળ બનાવવાની પદ્ધતિઓ શીખી.</li>
+          <li><strong>ટીમવર્ક અને સામાજિક ગુણો:</strong> રમતો દ્વારા બાળકોમાં લીડરશિપ, સહકાર, શિસ્ત અને નિર્ણય શક્તિ જેવા ગુણોનો વિકાસ કેવી રીતે કરવો તેનો અનુભવ મેળવ્યો.</li>
+          <li><strong>બાળકેન્દ્રી અભિગમ:</strong> વર્ગખંડમાં નીરસતા દૂર કરી બાળક સ્વયં ઉત્સાહથી શીખવા માટે પ્રેરિત થાય તેવા વાતાવરણનું નિર્માણ કરવાની તાલીમ મેળવી.</li>
+        </ul>
+
+        <div class="quote-box">
+          “જે શિક્ષણમાં રમત અને આનંદનો સંગમ થાય છે, તે શિક્ષણ બાળક માટે ક્યારેય બોજ નથી બનતું.”
+        </div>
+      </div>
+    </article>
+
+    <!-- 6. Self-Cooking -->
+    <article class="blog-section">
+      <div class="media-container">
+        <img src="1000461172.jpg" alt="સ્વાવલંબન - સ્વયંપાક">
+      </div>
+      <div class="content-body">
+        <h2>આત્મનિર્ભરતા અને ટીમવર્ક - સ્વયંપાક (Self-Cooking)</h2>
+        <p>એક શ્રેષ્ઠ શિક્ષક માત્ર જ્ઞાન આપનાર નથી હોતો, પરંતુ તે આત્મનિર્ભરતાનો આદર્શ ઉદાહરણ પણ હોય છે. 'હું શિક્ષક છું' કાર્યક્રમ દરમિયાન તાલીમાર્થીઓએ પોતાનું ભોજન જાતે બનાવવાનો એક અદ્ભુત અનુભવ મેળવ્યો:</p>
+        
+        <ul class="points-list">
+          <li><strong>સહયોગ અને વહેંચણી:</strong> રસોઈ માટે જરૂરી સામગ્રી તૈયાર કરવાથી લઈને વાનગીઓ બનાવવા સુધીની તમામ જવાબદારીઓ તાલીમાર્થીઓએ જૂથમાં મળીને વહેંચી લીધી.</li>
+          <li><strong>આત્મનિર્ભરતાનો પાઠ:</strong> જાતે રસોઈ બનાવવાથી સ્વાવલંબનનો સાચો અર્થ સમજાયો અને ખોરાકના મૂલ્ય તથા અન્નનો બગાડ ન કરવાની ક્ષમતા ખીલી.</li>
+          <li><strong>સમૂહ ભાવના:</strong> સાથે મળીને બનાવેલું ભોજન સમૂહમાં પ્રેમ અને આનંદ સાથે ગ્રહણ કરવાથી તાલીમાર્થીઓ વચ્ચે પરસ્પર સંબંધો વધુ ગાઢ બન્યા.</li>
+        </ul>
+
+        <div class="quote-box">
+          “પોતાના હાથે બનાવેલા ભોજનમાં આત્મનિર્ભરતાનો જે સ્વાદ છે, તે દુનિયાના કોઈ વ્યંજનમાં નથી.”
+        </div>
+      </div>
+    </article>
+
+    <!-- 7. Cleanliness & Service -->
+    <article class="blog-section">
+      <div class="media-container">
+        <img src="1000461171.jpg" alt="શ્રમદાન અને સાફ-સફાઈ">
+      </div>
+      <div class="content-body">
+        <h2>શ્રમનું મહત્વ અને શિસ્ત - શ્રમદાન અને સાફ-સફાઈ (Cleanliness & Service)</h2>
+        <p>શિક્ષકના જીવનમાં શિસ્ત અને સ્વચ્છતાનું સ્થાન સૌથી ઉપરી છે. તાલીમાર્થીઓ પોતાના પરિસર અને પર્યાવરણ પ્રત્યે સંવેદનશીલ બને તે માટે સફાઈ ઝુંબેશ અને શ્રમદાન આયોજિત કરવામાં આવ્યું:</p>
+        
+        <ul class="points-list">
+          <li><strong>શ્રમનું ગૌરવ:</strong> કોઈ પણ કામ નાનું કે મોટું નથી હોતું તે ભાવના સાથે તાલીમાર્થીઓએ પોતાના રોકાણના સ્થાન, વર્ગખંડો અને કમ્પસની સફાઈ સ્વયં કરી.</li>
+          <li><strong>શિસ્ત અને જવાબદારી:</strong> દૈનિક દિનચર્યાના ભાગરૂપે સફાઈ કરવાથી તાલીમાર્થીઓમાં સમયપાલન, શિસ્ત અને પોતાના પરિસરને સ્વચ્છ રાખવાની જવાબદારીનો વિકાસ થયો.</li>
+          <li><strong>ઉદાહરણરૂપ શિક્ષક:</strong> ભાવિ શિક્ષકો પોતાના વિદ્યાર્થીઓને માત્ર સ્વચ્છતાના ઉપદેશ આપવાને બદલે પોતે આચરણ કરીને બતાવે તેવો હેતુ સિદ્ધ થયો.</li>
+        </ul>
+
+        <div class="quote-box">
+          “સફાઈ એ માત્ર એક ભૌતિક કાર્ય નથી, પણ તે મનની શુદ્ધતા અને સંસ્કારની ઓળખ છે.”
+        </div>
+      </div>
+    </article>
+
+    <!-- 8. Prayer & Spirituality -->
+    <article class="blog-section">
+      <div class="media-container">
+        <img src="1000461170.jpg" alt="સવાર-સાંજની પ્રાર્થના">
+      </div>
+      <div class="content-body">
+        <h2>માનસિક શાંતિ અને સંસ્કાર - આધ્યાત્મિકતા અને પ્રાર્થના (Prayer & Spirituality)</h2>
+        <p>શિક્ષણ અને કાર્યની સફળતા માટે એકાગ્રતા અને આંતરિક શાંતિ અત્યંત જરૂરી છે. 'હું શિક્ષક છું' કાર્યક્રમની દિનચર્યાનો સૌથી પવિત્ર ભાગ સવાર-સાંજની પ્રાર્થના સભા હતો:</p>
+        
+        <ul class="points-list">
+          <li><strong>દિવસની સકારાત્મક શરૂઆત:</strong> દરરોજ સવારે ભાવપૂર્ણ પ્રાર્થનાથી દિવસનો પ્રારંભ કરવામાં આવતો, જેનાથી મનમાં નવી ઊર્જા, આત્મવિશ્વાસ અને સકારાત્મક વિચારોનો સંચાર થતો.</li>
+          <li><strong>આધ્યાત્મિકતા અને એકાગ્રતા:</strong> પ્રાર્થના અને ધ્યાન દ્વારા તાલીમાર્થીઓ માનસિક શાંતિ મેળવતા અને દિવસભરની પ્રવૃત્તિઓ માટે માનસિક રીતે તૈયાર થતા.</li>
+          <li><strong>સાંજનું ચિંતન:</strong> દિવસના અંતે સાંજની પ્રાર્થનામાં આખા દિવસના અનુભવોનું આત્મચિંતન કરી, ઈશ્વરનો આભાર વ્યક્ત કરવામાં આવતો.</li>
+        </ul>
+
+        <div class="quote-box">
+          “પ્રાર્થના એ મનનું શુદ્ધિકરણ છે, જે આત્માને શાંતિ અને કાર્ય કરવાની નવી શક્તિ આપે છે.”
+        </div>
+      </div>
+    </article>
+
+    <!-- 9. Conclusion & Reflection -->
+    <article class="blog-section">
+      <div class="media-container">
+        <img src="1000461169.jpg" alt="સમાપન અને પ્રેરણાદાયી સ્મૃતિ">
+      </div>
+      <div class="content-body">
+        <h2>ભાવિ શિક્ષકોનું ઘડતર: કાર્યક્રમનો નિષ્કર્ષ (Conclusion)</h2>
+        <p>DIET દ્વારા આયોજિત 'હું શિક્ષક છું' કાર્યક્રમ માત્ર એક તાલીમ વર્ગ ન રહેતા તાલીમાર્થીઓના જીવનનો એક અવિસ્મરણીય અને રૂપાંતરકારી અનુભવ બની રહ્યો:</p>
+        
+        <ul class="points-list">
+          <li><strong>સર્વાંગી વિકાસ:</strong> બાંધણી, વારલી આર્ટ, પપેટ મેકિંગ અને રમતો દ્વારા શૈક્ષણિક તથા સર્જનાત્મક કૌશલ્યો ખીલ્યા, તો બીજી તરફ સ્વયંપાક અને સફાઈ દ્વારા આત્મનિર્ભરતાનો પાઠ મળ્યો.</li>
+          <li><strong>ભાવિ શિક્ષક તરીકે સજ્જતા:</strong> કળા, સંસ્કૃતિ, પ્રાયોગિક જ્ઞાન, શિસ્ત અને આધ્યાત્મિકતાના આ અદ્ભુત સંગમે તાલીમાર્થીઓને વર્ગખંડ માટે વધુ આત્મવિશ્વાસુ બનાવ્યા.</li>
+          <li><strong>આદર્શ શિક્ષક તરફ પ્રયાણ:</strong> આ તાલીમે સાબિત કર્યું કે એક ઉત્તમ શિક્ષક એ જ છે જે વિદ્યાર્થીઓને માત્ર પુસ્તકનું જ્ઞાન જ નહીં, પરંતુ જીવન જીવવાનું સાચું માર્ગદર્શન પણ આપે છે.</li>
+        </ul>
+
+        <div class="quote-box">
+          “શિક્ષણ એ ભવિષ્યનું નિર્માણ કરવાની ચાવી છે, અને એક સમર્પિત શિક્ષક જ તે ભવિષ્યને ઉજ્જવળ બનાવે છે.”
+        </div>
+      </div>
+    </article>
+
+    <!-- Footer -->
+    <footer>
+      <p>© DIET - 'હું શિક્ષક છું' વિશેષ તાલીમ શિબિર બ્લોગ | સર્વાધિકાર સુરક્ષિત</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+="photo-hint">📸 <strong>ફોટો સૂચન:</strong> મોજાં, કાગળ કે કાપડમાંથી કઠપૂતળીઓ બનાવતા કે ડ્રામા/વાર્તા રજૂ કરતા સમયનો ફોટો.</div>
       </div>
       <div class="content-body">
         <h2>વર્ગખંડમાં જીવંતતા લાવતી કળા - પપેટ મેકિંગ (Puppet Making)</h2>
